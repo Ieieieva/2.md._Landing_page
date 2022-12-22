@@ -14,7 +14,7 @@ body {
 
 /* Navigation */
 
-.navigation {
+.hero__navigation {
     display: flex;
     width: 1109px;
     height: 48px;
@@ -24,25 +24,25 @@ body {
     margin-left: 165px;
 }
 
-.navigation .header-logo {
+.hero__navigation .hero-logo {
     width: 112px;
     height: 40px;
 }
 
-.navigation nav ul {
+.hero__navigation .hero__nav {
     list-style-type: none;
     display: flex;
     gap: 40px;
 }
 
-.navigation .navig a {
+.hero__navigation .hero__nav .hero__link{
     text-decoration: none;
     color: #292830;
     font-size: 18px;
     font-weight: 400;
 }
 
-.navigation .request {
+.hero__navigation .request {
     color: #FF7235;
     border: 1px solid #FF7235;
     border-radius: 8px;
@@ -52,7 +52,7 @@ body {
     background-color: white;
 }
 
-.navigation .request:hover {
+.hero__navigation .request:hover {
     color: white;
     background-color: #FF7235;
     cursor: pointer;
